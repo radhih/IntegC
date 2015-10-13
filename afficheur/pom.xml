@@ -2,9 +2,21 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.esprit</groupId>
   <artifactId>afficheur</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-RELEASE</version>
   <properties>
   	<maven.compiler.source>1.7</maven.compiler.source>
   	<maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  
+  <distributionManagement>
+  <repository>
+  <id>deployment</id>
+  <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+  <id>deployment</id>
+  <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+
+  </snapshotRepository>
+  </distributionManagement>
 </project>
