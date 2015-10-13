@@ -7,7 +7,9 @@ import java.util.Properties;
 
 import com.esprit.afficheur.formats.Afficheur;
 import com.esprit.domain.Doccument;
-
+/***
+*@author Houli_2
+*/
 public class Initialiseur {
 
 	public static void main(String[] args) {
